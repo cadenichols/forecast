@@ -2,9 +2,83 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
-    title Prototype
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title Forecast
     link(rel='stylesheet', href='/style.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css')
+
+    //- link(rel='stylesheet', href='/Resources/bootstrap-3.3.2-dist/css/bootstrap.min.css')
   body
-    h1 Hello, World
+    .container
+      h1 Weather Forecast
+      .input
+        input#zip-code(type='text', autofocus=true, placeholder='Zip Code')
+        button#set-zip Get Forecast
+
+      #hereandnow.row
+        .city
+        .weather
+          .text
+          img.icon
+        .temp
+        .today
+          .weekday
+          .highlow
+
+      #day1.day.row
+        .weekday.col-md-4
+        .col-md-2
+          img.icon
+        .conditions.col-md-2
+        .highlow.col-md-2
+      #day2.day.row
+        .weekday.col-md-4
+        .col-md-2
+          img.icon
+        .conditions.col-md-2
+        .highlow.col-md-2
+      #day3.day.row
+        .weekday.col-md-4
+        .col-md-2
+          img.icon
+        .conditions.col-md-2
+        .highlow.col-md-2
+      #day4.day.row
+        .weekday.col-md-4
+        .col-md-2
+          img.icon
+        .conditions.col-md-2
+        .highlow.col-md-2
+      #day5.day.row
+        .weekday.col-md-4
+        .col-md-2
+          img.icon
+        .conditions.col-md-2
+        .highlow.col-md-2
+      #day6.day.row
+        .weekday.col-md-4
+        .col-md-2
+          img.icon
+        .conditions.col-md-2
+        .highlow.col-md-2
+      #day7.day.row
+        .weekday.col-md-4
+        .col-md-2
+          img.icon
+        .conditions.col-md-2
+        .highlow.col-md-2
+      #day8.day.row
+        .weekday.col-md-4
+        .col-md-2
+          img.icon
+        .conditions.col-md-2
+        .highlow.col-md-2
+      #day9.day.row
+        .weekday.col-md-4
+        .col-md-2
+          img.icon
+        .conditions.col-md-2
+        .highlow.col-md-2
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js')
     script(src='/vendor/jquery/dist/jquery.js')
     script(src='/main.js')
