@@ -1,0 +1,27 @@
+h1,
+.input {
+  text-align: center;
+}
+h1,
+.input,
+.day {
+  margin-left: auto;
+  margin-right: auto;
+}
+#hereandnow {
+  text-align: center;
+}
+#hereandnow .city {
+  font-size: 2em;
+}
+.day {
+  text-align: center;
+  width: 500px;
+  border: 1px solid black;
+}
+.day div {
+  padding-top: 10px;
+  padding-left: 20px;
+  text-align: left;
+  display: inline;
+}
